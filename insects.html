@@ -1,54 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Learning bootstrap</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-<h1>Insects by Suresh Sindam</h1>
-<div class="container">
-  <div class="row">
-    <div class=" col-sm-2">S</div>
-    <div class=" col-sm-2">I</div>
-    <div class=" col-sm-2">N</div>
-    <div class=" col-sm-2">D</div>
-    <div class=" col-sm-2">A</div>
-    <div class=" col-sm-2">M</div>
+  <h1>Insects by Suresh Sindam</h1>
+  <div class="container">
+    <div class="row">
+      <div class=" col-sm-2">S</div>
+      <div class=" col-sm-2">I</div>
+      <div class=" col-sm-2">N</div>
+      <div class=" col-sm-2">D</div>
+      <div class=" col-sm-2">A</div>
+      <div class=" col-sm-2">M</div>
     </div>
 
     <div class="row">
       <div class=" col-sm-2">Spider wasps</div>
-      <div class=" col-sm-2"> Ichneumonid wasps</div>
+      <div class=" col-sm-2">Ichneumonid wasps</div>
       <div class=" col-sm-2">Net-winged midges</div>
       <div class=" col-sm-2">Darner dragon flies</div>
       <div class=" col-sm-2">Army ants</div>
       <div class=" col-sm-2">Mosquitoes</div>
 
+    </div>
   </div>
-</div>
 
 
-<p>The insects name breaks first as it has large size than the break point of the browser , evry browsser has fixed break point </p>
+  <p>The insects name breaks first as it has large size than the break point of the browser , evry browsser has fixed
+    break point </p>
 
-<div class = "container">
-  <img src="dragonfly.jpg" class = "img-fluid">
-  <img src="spider-wasp.jpg"  class = "img-fluid">
-  <img src="mosquito.jpg" class = "img-fluid">
-</div>
+  <div class="container">
+    <img src="dragonfly.jpg" class="img-fluid">
+    <img src="spider-wasp.jpg" class="img-fluid">
+    <img src="mosquito.jpg" class="img-fluid">
+  </div>
 
-<div class = "container">
-  <img src="dragonfly.jpg" class="img-thumbnail">
-  <img src="spider-wasp.jpg"  class="img-thumbnail">
-  <img src="mosquito.jpg" class="img-thumbnail">
-</div>
+  <div class="container">
+    <img src="dragonfly.jpg" class="img-thumbnail">
+    <img src="spider-wasp.jpg" class="img-thumbnail">
+    <img src="mosquito.jpg" class="img-thumbnail">
+  </div>
+
+  <table class="table table-bordered table-striped table-hover table-sm caption-top">
+    <caption>table shows names of first letter last name, Insects, Cities, River</caption>
+    <thead>
+      <tr class="table-warning">
+        <th>Letter</th>
+        <th>Insect</th>
+        <th>City</th>
+        <th>River</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-danger">
+        <td>S</td>
+        <td>Spider wasps</td>
+        <td>San Francisco</td>
+        <td>Sacandaga River</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>I</td>
+        <td>Ichneumonid wasps</td>
+        <td>Islamabad</td>
+        <td>Illinois River</td>
+      </tr>
+      <tr class="table-info">
+        <td>N</td>
+        <td>Net-winged midges</td>
+        <td>North Laurel</td>
+        <td>Nantahala River</td>
+      </tr>
+      <tr class="table-success">
+        <td>D</td>
+        <td>Darner dragon flies</td>
+        <td>Delhi</td>
+        <td>Davis Creek</td>
+      </tr>
+      <tr class="table-light">
+        <td>A</td>
+        <td>Army ants</td>
+        <td>Arlington</td>
+        <td>Alabama River</td>
+      </tr>
+      <tr class="table-primary">
+        <td>M</td>
+        <td>Mosquitoes</td>
+        <td>Madison</td>
+        <td>Mackinaw River</td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
+
 </html>
